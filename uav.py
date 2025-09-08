@@ -8,7 +8,6 @@ import yaml
 import torch
 import matplotlib.pyplot as plt
 from ultralytics import YOLO
-from torch2trt import torch2trt
 
 def prepareDataset():
     print("Choose dataset folder:")
